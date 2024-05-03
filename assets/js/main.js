@@ -118,53 +118,8 @@
 })(jQuery);
 
 function submitForm(e){
-	Email.send({
-		SecureToken : "8dbf79ba-a662-470d-97ee-0a10f0eaddef",
-		To : document.getElementById('form_contact-email').value,
-		From : "skinymoreno98@gmail.com",
-		// FromName: "support@varwebsolutions.com",
-		Subject : "Email Confirmation Notice",
-		Body : `
-			Hi ${document.getElementById('form_contact-name').value},</br>
-			</br>
-			Thank you for reaching out to our team at Varweb Solutions! This is just an email confirming we 
-			have received your message and will get back to you in 1-3 days. We appreciate your patience and look
-			forward to working with you.</br>
-			</br>
-			Best,</br>
-			Alder Moreno</br>
-			Developer @ Varweb Solutions</br>
-			(916) 390-1005</br>
-			</br>
-			</br>
-			<hr>
-			</br>
-			${document.getElementById('form_contact-body').value}
-			`
-	}).then((message) => {
-		console.log(message);
-	});
-	Email.send({
-		SecureToken : "8dbf79ba-a662-470d-97ee-0a10f0eaddef",
-		To : 'skinymoreno98@gmail.com',
-		From : "skinymoreno98@gmail.com",
-		// FromName: document.getElementById('form_contact-email').value,
-		Subject : document.getElementById('form_contact-subject').value,
-		Body : `
-			${document.getElementById('form_contact-body').value}</br>
-			</br>
-			Email from </br>
-			${document.getElementById('form_contact-name').value}</br>
-		`
-	}).then((message) => {
-		if(message == 'OK'){
-			document.getElementById('submit-feedback').innerHTML = 'Your message has been received!';
-			document.getElementById('submit-feedback').className = 'success'
-		}else{
-			document.getElementById('submit-feedback').innerHTML = 'Error sending message... <a href="mailto:morenoalder98@gmail.com">Email Us</a> instead.';
-			document.getElementById('submit-feedback').className = 'error'
-		}
-	});
+	document.getElementById('submit-feedback').innerHTML = 'Your message has been received!';
+	document.getElementById('submit-feedback').className = 'success';
 }
 
 function resetForm(){
