@@ -99,9 +99,8 @@
 			});
 
 		$('#form_contact').submit(function(event) {
-			event.preventDefault(); // Prevent default form submission
-			// Your form handling logic here
-			submitForm(event)
+			document.getElementById('submit-feedback').innerHTML = 'Your message has been received!';
+			document.getElementById('submit-feedback').className = 'success';
 		});
 		var contactLinks = document.querySelectorAll('a[href="#contactForm"]');
 
@@ -116,11 +115,6 @@
 		});
 
 })(jQuery);
-
-function submitForm(e){
-	document.getElementById('submit-feedback').innerHTML = 'Your message has been received!';
-	document.getElementById('submit-feedback').className = 'success';
-}
 
 function resetForm(){
 	document.getElementById('submit-feedback').innerHTML = '';
