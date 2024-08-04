@@ -7,6 +7,10 @@
     letter-spacing: -1px;
 }
 
+.navbar-area.sticky .font-logo{
+    color: #0052cc;
+}
+
 #roi-calculator-container {
     font-family: 'Roboto', sans-serif;
     max-width: 400px;
