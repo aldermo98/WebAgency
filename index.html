@@ -1070,7 +1070,7 @@
                   <h2>Results:</h2>
                   <p>Opportunity Loss: <span id="monthly-left"></span></p>
                   <p>Our Cost/mo: <span id="we-charge"></span></p>
-                  <p>ROI: <span id="roi"></span>%</p>
+                  <p>ROI: <span id="result"></span>%</p>
                 </div>
               
                 <script>
@@ -1084,7 +1084,7 @@
                         const roi = (monthlyLeft / monthlyCharge) * 100;
                         document.getElementById("monthly-left").textContent = monthlyLeft.toFixed(2);
                         document.getElementById("we-charge").textContent = monthlyCharge.toFixed(2);
-                        document.getElementById("roi").textContent = roi.toFixed(2);
+                        document.getElementById("result").textContent = roi.toFixed(2);
                     });
                 </script>
               </div>
