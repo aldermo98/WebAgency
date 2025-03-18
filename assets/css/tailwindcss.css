@@ -1405,7 +1405,7 @@ p {
   display: inline-block;
   border-radius: 0.5rem;
   --tw-bg-opacity: 1;
-  background-color: rgba(37, 99, 235, var(--tw-bg-opacity));
+  background-color: #fe8464;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   padding-top: 0.75rem;
@@ -1418,7 +1418,7 @@ p {
 
 .main-btn:hover{
   --tw-bg-opacity: 1;
-  background-color: rgba(96, 165, 250, var(--tw-bg-opacity));
+  background-color: #fb623c;
 }
 
 .video-icon a{
@@ -1535,7 +1535,16 @@ p {
   opacity: 1;
 }
 
-.subscribe-form .main-btn {
+.subscribe-form input{
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 1px solid #e1e4e8;
+  border-radius: 3px;
+}
+
+/* .subscribe-form .main-btn {
   border-radius: 0 0.25em 0.25em 0;
   position: absolute;
   top: 0px;
@@ -1543,7 +1552,7 @@ p {
   height: 100%;
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
+} */
 
 @media (max-width: 500px) {
   .subscribe-form .main-btn{
