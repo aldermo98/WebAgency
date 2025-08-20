@@ -3,7 +3,7 @@ import image from "@/images/resource/featured-image-8.jpg";
 const whyUs = {
   image,
   videoId: "Get7rqXYrbQ",
-  title: "See Why you should choose linoor",
+  title: "See Why you should choose yeno",
   features: [
     {
       id: 1,

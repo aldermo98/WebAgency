@@ -1,7 +1,7 @@
 import featuredImage from "@/images/resource/featured-image-4.jpg";
 
 const weDOSection = {
-  title: "We do more then ever\nplatforms",
+  title: "We don't aim to beat your competition, we aim to crush em",
   featuredImage,
   text: "There are many variatns of passages the majority have suffered alteration in some foor randomised words believable.",
   barTitle: "Digital marketing",

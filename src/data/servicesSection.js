@@ -43,42 +43,42 @@ export const serviceSectionThree = [
     id: 1,
     icon: "flaticon-responsive",
     href: "/web-development",
-    title: "Website\nDevelopment",
+    title: "Rank Higher\non Google",
   },
   {
     id: 2,
     icon: "flaticon-computer",
     href: "/graphic-designing",
-    title: "graphic\ndesigning",
+    title: "A Website That\nGets You More Jobs",
   },
   {
     id: 3,
     icon: "flaticon-digital-marketing",
     href: "/digital-marketing",
-    title: "digital\nmarketing",
+    title: "Get Found in\n“Near Me” Searches",
   },
   {
     id: 4,
     icon: "flaticon-development",
     href: "/seo",
-    title: "seo & content\nwriting",
+    title: "Ads That Bring You\nMore Calls",
   },
   {
     id: 5,
     icon: "flaticon-app-development",
     href: "/app-development",
-    title: "App\nDevelopment",
+    title: "Get 5-star\nRated Online",
   },
   {
     id: 6,
     icon: "flaticon-ui",
     href: "/ui-designing",
-    title: "Ui/UX\ndesigning",
+    title: "Stop Losing Leads\nWith Business Automation",
   },
 ];
 
 export const servicesSectionOne = {
-  title: "We Shape the Perfect\nSolutions",
+  title: "We automate your business. You get more time",
   text: "We are committed to providing our customers with exceptional service while offering our employees the best training.",
   services: serviceSectionThree,
 };

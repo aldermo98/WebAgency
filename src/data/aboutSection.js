@@ -15,17 +15,17 @@ import image13 from "@/images/update-26-02-2021/resources/about-me-1.jpg";
 export const aboutSectionOne = {
   image1,
   image2,
-  title: "We’re the best agency\nin downtown",
+  title: "Looking for ways to increase your sales?",
   text1:
-    "We are committed to providing our customers with exceptional service while offering our employees the best training.",
+    "We help local service businesses increase sales by 20%+ consistently",
   text2:
-    "Lorem Ipsum is simply dummy text of free available in market the printing and typesetting industry has been the industry's standard dummy text ever.",
+    "Our proven Business Automation System establishes professional marketing that has helped our clients grow revenue 20%+ year over year.",
   textList: [
-    "Suspe ndisse suscipit sagittis leo.",
-    "Entum estibulum dignissim posuere.",
-    "If you are going to use a passage.",
+    "Fill your calendar with qualified appointments",
+    "Implement a professional done-for-you plan",
+    "Increase sales and revenue",
   ],
-  since: "2008",
+  since: "2020",
 };
 
 export const aboutSectionTwo = {
@@ -59,7 +59,7 @@ export const aboutSeven = {
   tagline: "About Company",
   title: "We provide the best business services",
   text: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, simply free text by injected humour, or randomised.",
-  title2: "Linoor is the largest digital marketing agency.",
+  title2: "Yeno is the largest digital marketing agency.",
   lists: [
     "We’re professional and certified designers",
     "We use quality material to make your walls awesome",

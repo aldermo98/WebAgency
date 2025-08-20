@@ -278,7 +278,7 @@ const gallerySection = {
 export default gallerySection;
 
 export const gallerySectionOne = {
-  title: "work showcase",
+  title: "Case Studies",
   tabBtns: [
     {
       id: 1,

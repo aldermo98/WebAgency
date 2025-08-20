@@ -3,23 +3,23 @@ import bg from "@/images/background/image-1.jpg";
 const funFacts = [
   {
     id: 1,
-    title: "Projects Completed",
-    count: 8705,
+    title: "Leads Generated",
+    count: 12500,
   },
   {
     id: 2,
-    title: "Active clients",
-    count: 480,
+    title: "Appointments Set",
+    count: 8000,
   },
   {
     id: 3,
-    title: "cups of coffee",
-    count: 626,
+    title: "Client Growth %",
+    count: 95,
   },
   {
     id: 4,
-    title: "happy clients",
-    count: 9704,
+    title: "Revenue Driven (millions)",
+    count: 5,
   },
 ];
 

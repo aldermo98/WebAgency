@@ -15,7 +15,7 @@ const VideoOne = () => {
           <div className="video-one__image">
             <Image
               src={image.src}
-              alt="Linoor is trusted by millions of customers"
+              alt="Yeno is trusted by many customers"
             />
             <div className="vid-link">
               <a onClick={() => setOpen(true)} className="lightbox-image">

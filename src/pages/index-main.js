@@ -2,8 +2,10 @@ import AboutSection from "@/components/AboutSection/AboutSection";
 import AgencySection from "@/components/AgencySection/AgencySection";
 import BannerOne from "@/components/BannerSection/BannerOne";
 import CallToSection from "@/components/CallToSection/CallToSection";
+import CallToSectionTwo from "@/components/CallToSection/CallToSectionTwo";
 import FunFactsOne from "@/components/FunFacts/FunFactsOne";
 import GallerySectionOne from "@/components/GallerySection/GallerySectionOne";
+import GetQuoteTwo from "@/components/GetQuote/GetQuoteTwo";
 import HeaderOne from "@/components/Header/HeaderOne";
 import MobileMenu from "@/components/Header/MobileMenu";
 import Layout from "@/components/Layout/Layout";
@@ -16,6 +18,7 @@ import SearchPopup from "@/components/SearchPopup/SearchPopup";
 import ServicesSectionOne from "@/components/ServicesSection/ServicesSectionOne";
 import SponsorsSection from "@/components/SponsorsSection/SponsorsSection";
 import TeamSection from "@/components/TeamSection/TeamSection";
+import TestimonialsSectionTwo from "@/components/TestimonialsSection/TestimonialsSectionTwo";
 import TrustedSection from "@/components/TrustedSection/TrustedSection";
 import WeDOSection from "@/components/WeDOSection/WeDOSection";
 import React from "react";
@@ -29,18 +32,16 @@ const HomeMain = () => {
       <SearchPopup />
       <BannerOne />
       <ServicesSectionOne />
-      <AboutSection />
       <LiveSection />
+      <CallToSectionTwo />
+      <AboutSection />
+      <TestimonialsSectionTwo />
       <WeDOSection />
-      <GallerySectionOne />
-      <FunFactsOne />
-      <TrustedSection />
-      <TeamSection />
+      <CallToSection />
       <ParallaxSection />
       <SponsorsSection />
-      <AgencySection />
+      <GetQuoteTwo />
       <NewsSection />
-      <CallToSection />
       <MainFooter normalPadding={false} />
     </Layout>
   );

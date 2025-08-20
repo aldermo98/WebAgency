@@ -26,7 +26,7 @@ const Layout = ({
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Linoor - DIgital Agency NextJS Template | {pageTitle}</title>
+        <title>Yeno - Grow Your Home Service Business | {pageTitle}</title>
       </Head>
       <Preloader className={preloaderClass} loading={loading} bg={preloader} />
       <main

@@ -38,7 +38,7 @@ const GallerySectionOne = ({ portfolio = false, similar = false }) => {
                 </h2>
               </div>
             )}
-            {!similar && (
+            {/* {!similar && (
               <div
                 className={`filters clearfix${portfolio ? " centered" : ""}`}
               >
@@ -56,7 +56,7 @@ const GallerySectionOne = ({ portfolio = false, similar = false }) => {
                   ))}
                 </ul>
               </div>
-            )}
+            )} */}
           </div>
           <Masonry
             options={masonryOptions}

@@ -17,7 +17,7 @@ const GallerySection = ({ className = "", carousel = "" }) => {
           </h2>
         </div>
       </div>
-      <div className="project-tab">
+      {/* <div className="project-tab">
         <div className="auto-container">
           <div className="tab-btns-box">
             <div className="tabs-header">
@@ -50,7 +50,7 @@ const GallerySection = ({ className = "", carousel = "" }) => {
             ))}
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

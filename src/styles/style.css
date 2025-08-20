@@ -4053,7 +4053,7 @@ img.lazy-image.loaded {
 ***/
 .live-section {
   position: relative;
-  padding: 120px 0px 0px;
+  padding: 120px 0px;
   background: #ffffff;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
@@ -4358,7 +4358,7 @@ img.lazy-image.loaded {
 ***/
 .we-do-section {
   position: relative;
-  padding: 240px 0px 90px;
+  padding: 120px 0px 90px;
   background: #ffffff url(../assets/images/background/pattern-2.png) left top
     repeat;
 }

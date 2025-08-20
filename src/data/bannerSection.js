@@ -4,20 +4,20 @@ export const bannerTwo = [
   {
     id: 1,
     bg: "2.jpg",
-    subtitle: "welcome to Linoor agency",
-    title: "Smart Web\nDesign Agency",
+    subtitle: "Grow Your Home Service Business",
+    title: "Get More Leads",
   },
   {
     id: 2,
     bg: "1.jpg",
-    subtitle: "welcome to Linoor agency",
-    title: "Smart Web\nDesign Agency",
+    subtitle: "Stop Chasing Customers",
+    title: "Get Found Online",
   },
   {
     id: 3,
     bg: "2.jpg",
-    subtitle: "welcome to Linoor agency",
-    title: "Smart Web\nDesign Agency",
+    subtitle: "Stand Out From Competitors",
+    title: "Build a 5-Star Reputation",
   },
 ];
 
